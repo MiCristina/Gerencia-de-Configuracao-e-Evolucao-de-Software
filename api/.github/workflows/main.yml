@@ -1,7 +1,7 @@
 name: Students Api Pipeline
 
 on:
-  push:
+  push: [push]
       branches:
         - main
 
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Say hello 
+      - name: Say hello
