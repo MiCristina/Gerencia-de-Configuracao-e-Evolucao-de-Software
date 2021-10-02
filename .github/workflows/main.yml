@@ -7,9 +7,9 @@ defaults:
     working-directory: /api
 
 jobs:
-  api:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
       - name: Say hello 
-        run: echo "api"
+        run: echo "hello"
