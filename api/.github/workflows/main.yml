@@ -1,7 +1,0 @@
-name: Students Api Pipeline
-
-on: [push]
- 
-defaults:
-  run:
-    working-directory: ./api
